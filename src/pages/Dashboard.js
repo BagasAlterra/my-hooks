@@ -1,5 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import NavigationBar from "../components/NavigationBar";
 
 const Dashboard = () => {
   const location = useLocation();
